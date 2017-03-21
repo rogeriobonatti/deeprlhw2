@@ -1,0 +1,11 @@
+#!/Users/rbonatti/Google_Drive/CMU/Courses/10-703_Deep_Reinforcement_Learning_and_Control/Homeworks/hw2/deeprl_hw2_src/deeprl_hw2/bin/python2.7
+
+# -*- coding: utf-8 -*-
+import re
+import sys
+
+from wheel.tool import main
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(main())
